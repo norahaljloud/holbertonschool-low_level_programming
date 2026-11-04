@@ -10,12 +10,14 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 calculator.c -o calculator
 - Addition
 - Subtraction
 - Multiplication
-- Division (not implemented yet)
+- Division
 - Quit using option 0
 
 ## Numeric Behavior
-The calculator uses integers for menu selection and arithmetic operations.
+- Menu choices use integers.
+- Arithmetic operands use double precision floating-point numbers.
+- Results support decimal values.
+- Results are displayed using %g to avoid unnecessary trailing zeros.
 
 ## Known Limitations
 - Non-numeric input validation is not supported.
-- Division is not implemented yet.

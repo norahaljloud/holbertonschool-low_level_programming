@@ -25,7 +25,7 @@ int main(void)
             printf("Bye!\n");
             break;
         }
-        else if (choice == 1)
+        else if (choice == 1 || choice == 2 || choice == 3)
         {
             printf("A: ");
             scanf("%d", &a);
@@ -33,18 +33,13 @@ int main(void)
             printf("B: ");
             scanf("%d", &b);
 
-            result = a + b;
-            printf("Result: %d\n", result);
-        }
-        else if (choice == 2)
-        {
-            printf("A: ");
-            scanf("%d", &a);
+            if (choice == 1)
+                result = a + b;
+            else if (choice == 2)
+                result = a - b;
+            else
+                result = a * b;
 
-            printf("B: ");
-            scanf("%d", &b);
-
-            result = a - b;
             printf("Result: %d\n", result);
         }
         else if (choice < 0 || choice > 4)

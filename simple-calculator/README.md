@@ -7,15 +7,15 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 calculator.c -o calculator
 ./calculator
 
 ## Supported Operations
-- Addition (menu option)
-- Subtraction (menu option)
-- Multiplication (menu option)
-- Division (menu option)
+- Addition (implemented)
+- Subtraction (menu option only)
+- Multiplication (menu option only)
+- Division (menu option only)
 - Quit using option 0
 
 ## Numeric Behavior
-The program uses integers for menu selection.
+The calculator uses integers for menu selection and arithmetic operations.
 
 ## Known Limitations
 - Non-numeric input validation is not supported.
-- Arithmetic operations are not implemented yet.
+- Subtraction, multiplication, and division are not implemented yet.

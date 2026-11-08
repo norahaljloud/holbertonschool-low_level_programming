@@ -11,7 +11,7 @@
 ### Run 1
 ```text
 Naive algorithm result: 625025000
-Naive algorithm time: 2.488913 seconds
+Naive algorithm time: 2.488590 seconds
 Single-pass algorithm result: 25000
 Single-pass algorithm time: 0.000097 seconds
 ```
@@ -19,7 +19,7 @@ Single-pass algorithm time: 0.000097 seconds
 ### Run 2
 ```text
 Naive algorithm result: 625025000
-Naive algorithm time: 2.487501 seconds
+Naive algorithm time: 2.486753 seconds
 Single-pass algorithm result: 25000
 Single-pass algorithm time: 0.000097 seconds
 ```
@@ -27,19 +27,19 @@ Single-pass algorithm time: 0.000097 seconds
 ### Run 3
 ```text
 Naive algorithm result: 625025000
-Naive algorithm time: 2.486187 seconds
+Naive algorithm time: 2.486842 seconds
 Single-pass algorithm result: 25000
-Single-pass algorithm time: 0.000099 seconds
+Single-pass algorithm time: 0.000096 seconds
 ```
 
 ## Average Execution Times
 
-- Naive algorithm average: 2.487534 seconds
-- Single-pass algorithm average: 0.000098 seconds
+- Naive algorithm average: 2.487395 seconds
+- Single-pass algorithm average: 0.000097 seconds
 
 ## Relative Performance
 
-The naive implementation is approximately 25383.00 times slower than the single-pass implementation, based on the average measured execution times.
+The naive implementation is approximately 25643.25 times slower than the single-pass implementation, based on the average measured execution times.
 
 ## Conclusion
 

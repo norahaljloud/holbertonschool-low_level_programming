@@ -11,3 +11,8 @@ with a specified character.
 
 Concatenates two strings into a newly allocated memory space.
 NULL inputs are treated as empty strings.
+
+## Task 3: alloc_grid
+
+Allocates a two-dimensional integer grid and initializes every element to zero.
+Returns NULL if dimensions are invalid or allocation fails.

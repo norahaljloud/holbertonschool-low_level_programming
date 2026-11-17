@@ -14,3 +14,8 @@ NULL inputs are treated as empty strings.
 
 Allocates memory for an array, initializes every byte to zero,
 and returns NULL if dimensions are zero or allocation fails.
+
+## Task 3: array_range
+
+Creates an integer array containing all values from min to max,
+inclusive, in ascending order.

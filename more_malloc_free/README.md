@@ -9,3 +9,8 @@ the process with exit status 98.
 
 Concatenates the first n bytes of the second string to the first string.
 NULL inputs are treated as empty strings.
+
+## Task 2: _calloc
+
+Allocates memory for an array, initializes every byte to zero,
+and returns NULL if dimensions are zero or allocation fails.

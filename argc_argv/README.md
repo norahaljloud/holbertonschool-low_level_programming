@@ -10,3 +10,8 @@ Prints the number of command-line arguments, excluding the program name.
 
 ## Task 2: args
 Prints all command-line arguments, including argv[0].
+
+## Task 3: Neither irony nor sarcasm is argument
+
+Multiplies two command-line integers using atoi().
+Prints Error and returns 1 if the argument count is incorrect.

@@ -7,3 +7,6 @@ The program prints its current executable name, including its path.
 
 ## Task 1: Silence is argument carried out by other means
 Prints the number of command-line arguments, excluding the program name.
+
+## Task 2: args
+Prints all command-line arguments, including argv[0].

@@ -1,7 +1,7 @@
 # 0x10. Variadic Functions
 
 ## Task 0: Beauty is variable, ugliness is constant
+Returns the sum of a variable number of integers.
 
-Implements sum_them_all, a variadic function that
-returns the sum of a variable number of integers.
-Uses va_start, va_arg, and va_end from stdarg.h.
+## Task 1: To be is to be the value of a variable
+Prints a variable number of integers using a specified separator.

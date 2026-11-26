@@ -9,3 +9,8 @@ Prints a variable number of integers using a separator.
 ## Task 2: One woman's constant is another woman's variable
 Prints a variable number of strings using a separator.
 NULL strings are printed as (nil).
+
+## Task 3: To be is a to be the value of a variable
+Prints different argument types based on a format string:
+c for char, i for integer, f for float, and s for string.
+Unknown format characters are ignored.

@@ -1,16 +1,14 @@
 # 0x10. Variadic Functions
 
-## Task 0: Beauty is variable, ugliness is constant
+## Task 0: sum_them_all
 Returns the sum of a variable number of integers.
 
-## Task 1: To be is to be the value of a variable
-Prints a variable number of integers using a separator.
+## Task 1: print_numbers
+Prints a variable number of integers separated by a string.
 
-## Task 2: One woman's constant is another woman's variable
-Prints a variable number of strings using a separator.
-NULL strings are printed as (nil).
+## Task 2: print_strings
+Prints a variable number of strings. NULL strings are printed as (nil).
 
-## Task 3: To be is a to be the value of a variable
-Prints different argument types based on a format string:
-c for char, i for integer, f for float, and s for string.
+## Task 3: print_all
+Prints characters, integers, floats, and strings based on a format string.
 Unknown format characters are ignored.

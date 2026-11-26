@@ -15,3 +15,9 @@ Prints all command-line arguments, including argv[0].
 
 Multiplies two command-line integers using atoi().
 Prints Error and returns 1 if the argument count is incorrect.
+
+## Task 4: To infinity and beyond
+
+Adds positive command-line integers.
+Prints 0 when no numbers are provided.
+Prints Error and returns 1 if any argument contains non-digit characters.
